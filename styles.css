@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0; 
+    /* border: 1px solid ; */
+}
+body {
+    font-family: Arial, sans-serif, fangsong ;
+    background: linear-gradient(to right, #4A494A, #706F6F);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #4A494A, #706F6F);
+    color: black;
+    text-align: center;
+    height: 38rem;
+}
+#header{
+    height: 10rem;
+    width: 100%;
+}
+
+#header h1 {
+    margin: 203px 30px 8px 30px;
+    font-size: 6.5rem;
+    font-family: fangsong;
+}
+
+#header p {
+    margin: 0.5rem 0 1rem;
+    font-style: italic;
+}
+
+.message {
+    background-color: black;
+    color: #ddd;
+}
+nav ul {
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 1px black solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #4A494A;
+}
+section {
+    /* padding: 2rem; */
+    text-align: center;
+}
+
+.media{
+    background-color: #4A494A;
+    color: black;
+    height: 38rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid ; */
+}
+.contain-about{
+    height: 27rem;
+    width: 67%;
+}
+.contain-about h2 {
+    color: black;
+    font-size: 3.5rem;
+    height: 5rem;
+    font-family: fangsong;
+    margin-bottom: 111px;
+    margin-right: 21rem;
+}
+.contain-about p{
+    height: 10rem;
+    width: 75%;
+    font-family: fangsong;
+    font-size: 1.5rem;
+}
+
+.img-contain{
+    height: 16rem;
+    width: 14rem;
+    background-image: url(aziz.jpg);
+    background-size: cover;
+}
+
+.category {
+    border: 1px solid #ddd;
+    color: black;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 300px;
+    background: #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-img{
+    height: 16rem;
+    width: 14rem;
+    background-image: url(aziz.jpg);
+    background-size: cover;
+}
+
+#cati-container{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#cati-container{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#categories h2 {
+    margin: 5rem 0rem;
+    font-size: 3rem;
+    font-family: fangsong;
+}
+
+.category {
+    height: 27rem;
+    display: block;
+    border-top-right-radius: 86px;
+    border-bottom-left-radius: 80px;
+}
+
+.product{
+    height: 27rem;
+    display: block;
+    /* border-top-right-radius: 86px;
+    border-bottom-left-radius: 80px; */
+}
+.pic{
+    height: 70%;
+    width: 100%;
+    /* background-image: url(aziz.jpg); */
+    background-size: cover;
+    border-top-right-radius: 86px;
+    border: 1px solid;
+} 
+
+.picture{
+    height: 70%;
+    width: 100%;
+    /* background-image: url(aziz.jpg); */
+    /* background-size: cover; */
+    border-top-right-radius: 86px;
+    /* overflow: hidden; */
+    overflow: hidden;
+    border: 1px solid;
+}
+
+.picture img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.product-img1{
+    background-image: url(img/cup.jpg);
+}
+
+.product-img2{
+    background-image: url(img/shoe.jpg);
+}
+
+.product-img3{
+    background-image: url(img/tshirt.webp);
+}
+
+.product-img4{
+    background-image: url(img/naqab.jpg);
+}
+
+
+.category h3 {
+    margin: 4px;
+    font-size: 24px;
+    padding: 4px;
+}
+
+.category p {
+    font-size: 1.1rem;
+}
+
+#product-page{
+    margin: 7rem 0rem;
+}
+.view-products {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(0,0,0,0.1);
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+.view-products:hover {
+    background: #218838;
+}
+
+/* footer{
+    height: 20%;
+    background-color: white;
+} */
+
+.heaing2{
+    font-size: 3rem;
+    margin: 22px 0px;
+    font-family: fangsong;
+} 
