@@ -94,8 +94,8 @@ section {
 
 .img-contain{
     height: 16rem;
-    width: 14rem;
-    background-image: url(aziz.jpg);
+    width: 16rem;
+    background-image: url(img/fevicon.png);
     background-size: cover;
 }
 
