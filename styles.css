@@ -9,6 +9,9 @@ body {
     color: #333;
 }
 
+.first{
+    background-color: linear-gradient(to right, #4A494A, #706F6F);;
+}
 header {
     background: linear-gradient(to right, #4A494A, #706F6F);
     color: black;
