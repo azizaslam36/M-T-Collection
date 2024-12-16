@@ -6,11 +6,10 @@
 body {
     font-family: Arial, sans-serif, fangsong ;
     background: linear-gradient(to right, #4A494A, #706F6F);
-    color: #333;
 }
 
 .first{
-    background-color: linear-gradient(to right, #4A494A, #706F6F);;
+    background-color: linear-gradient(to right, #4A494A, #706F6F);
 }
 header {
     background: linear-gradient(to right, #4A494A, #706F6F);
@@ -123,11 +122,8 @@ section {
     justify-content: space-evenly;
 }
 
-#cati-container{
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+#cati-container2{
+    background-color: linear-gradient(to right, #4A494A, #706F6F);
 }
 
 #categories h2 {
