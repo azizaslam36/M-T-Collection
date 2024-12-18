@@ -1,16 +1,13 @@
 *{
     padding: 0;
-    margin: 0; 
-    /* border: 1px solid ; */
+    margin: 0;
 }
+
 body {
     font-family: Arial, sans-serif, fangsong ;
     background: linear-gradient(to right, #4A494A, #706F6F);
 }
 
-.first{
-    background-color: linear-gradient(to right, #4A494A, #706F6F);
-}
 header {
     background: linear-gradient(to right, #4A494A, #706F6F);
     color: black;
@@ -40,7 +37,7 @@ header {
 nav ul {
     height: 5vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style: none;
 }
 
@@ -59,7 +56,6 @@ nav ul li a {
     background-color: #4A494A;
 }
 section {
-    /* padding: 2rem; */
     text-align: center;
 }
 
@@ -71,7 +67,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid ; */
 }
 .contain-about{
     height: 27rem;
@@ -108,10 +103,10 @@ section {
     background: #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .product-img{
     height: 16rem;
     width: 14rem;
-    background-image: url(aziz.jpg);
     background-size: cover;
 }
 
@@ -139,16 +134,25 @@ section {
     border-bottom-left-radius: 80px;
 }
 
+
+.category h3 {
+    margin: 4px;
+    font-size: 24px;
+    padding: 4px;
+}
+
+.category p {
+    font-size: 1.1rem;
+}
+
 .product{
     height: 27rem;
     display: block;
-    /* border-top-right-radius: 86px;
-    border-bottom-left-radius: 80px; */
 }
+
 .pic{
     height: 70%;
     width: 100%;
-    /* background-image: url(aziz.jpg); */
     background-size: cover;
     border-top-right-radius: 86px;
     border: 1px solid;
@@ -157,10 +161,7 @@ section {
 .picture{
     height: 70%;
     width: 100%;
-    /* background-image: url(aziz.jpg); */
-    /* background-size: cover; */
     border-top-right-radius: 86px;
-    /* overflow: hidden; */
     overflow: hidden;
     border: 1px solid;
 }
@@ -188,15 +189,6 @@ section {
 }
 
 
-.category h3 {
-    margin: 4px;
-    font-size: 24px;
-    padding: 4px;
-}
-
-.category p {
-    font-size: 1.1rem;
-}
 
 #product-page{
     margin: 7rem 0rem;
@@ -216,13 +208,12 @@ section {
     background: #218838;
 }
 
-/* footer{
-    height: 20%;
-    background-color: white;
-} */
-
 .heaing2{
     font-size: 3rem;
     margin: 22px 0px;
     font-family: fangsong;
 } 
+
+hr{
+    color: #4A494A;
+}
