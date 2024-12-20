@@ -30,15 +30,10 @@ header {
     font-style: italic;
 }
 
-.message {
-    background-color: black;
-    color: #ddd;
-}
-
 /* General styling for the nav bar */
 nav {
     background-color: #333; /* Dark background for contrast */
-    color: black;
+    color: #ddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a slight shadow */
     position: sticky; /* Sticks to the top on scroll */
     top: 0;
@@ -67,7 +62,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #fff;
     padding: 0.5rem 1rem;
     font-weight: bold;
     border-radius: 20px;
@@ -96,23 +91,25 @@ nav ul li a:hover {
 .nav-brand h1 {
     margin: 0;
     font-size: 1.5rem; /* Default font size */
-    color: #fff;
+    color: #aaa;
     font-weight: bold;
 }
 
 .nav-brand p {
     margin: 0;
     font-size: 0.9rem;
-    color: #ddd;
+    color: #aaa;
     font-style: italic;
 }
 
 section {
     text-align: center;
 }
-
+.about{
+    height: 1;
+}
 .media{
-    background-color: #4A494A;
+    /* background-color: #4A494A; */
     color: black;
     height: 38rem;
     width: 100%;
@@ -122,9 +119,9 @@ section {
 }
 .contain-about{
     height: 27rem;
-    width: 67%;
+    width: 80%;
 }
-.contain-about h2 {
+.contain-about h3 {
     color: black;
     font-size: 3.5rem;
     height: 5rem;
@@ -289,8 +286,15 @@ hr{
 
 /* Responsive font sizes */
 @media (max-width: 600px) {
+    header{
+        height: 0rem;
+    }
     #header h1{
+        margin: 20px 7px -9px 7px;
         font-size: 3rem;
+    }
+    #header p{
+        font-size: 18px;
     }
     nav {
         font-size: 0.5rem; /* Reduce font size slightly */
@@ -301,6 +305,7 @@ hr{
     }
     .nav-brand h1 {
         font-size: 0.2rem; /* Scale down headline font size */
+        color: #aaa;
     }
     nav ul li {
         margin: 0 0.5rem;
@@ -310,16 +315,20 @@ hr{
     }
     .nav-brand p {
         font-size: 0.5rem; /* Scale down tagline font size */
+        color: #aaa;
     }
-    /* #cati-container{
-        } */
+    
     .media{
         width: 100%;
         align-items: center;
+
     }
-    .contain-about h2 {
-        font-size: 3rem;
-        height: 4rem;
+    .contain-about h3 {
+        font-size: 2rem;
+        height: 3rem;
+        margin-bottom: 0px;
+        margin-right: 3rem;
+        margin-top: 8rem;
     }
 
     .contain-about p{
@@ -343,6 +352,11 @@ hr{
     }
     .picture{
         border-top-right-radius: 0px;
+    }
+    #categories h2 {
+        margin: 5rem 0rem;
+        font-size: 2rem;
+        font-family: fangsong;
     }
 }
 
