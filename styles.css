@@ -144,22 +144,21 @@ section {
 }
 
 .category {
-    border: 1px solid #ddd;
-    color: black;
+    height: 27rem;
+    max-width: 300px;
     margin: 1rem auto;
     padding: 1rem;
-    max-width: 300px;
+    border: 1px solid #ddd;
+    color: black;
     background: #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 27rem;
     display: block;
-    border-top-right-radius: 86px;
-    border-bottom-left-radius: 80px;
+    border-radius: 15px;
 }
 .product-side-category {
     border: 1px solid #ddd;
     color: black;
-    margin: 1rem auto;
+    margin: 10px;
     padding: 1rem;
     max-width: 300px;
     background: #ddd;
@@ -167,13 +166,25 @@ section {
     height: 27rem;
     display: block;
     border-radius: 21px;
-    /* border-top-right-radius: 86px;
-    border-bottom-left-radius: 80px; */
 }
 .product-side-category h3 {
     font-size: 1.2rem;
 }
 
+.container-link{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.product-heading{
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.product-price{
+    font-size: 1rem;
+    margin-top:1rem; 
+} 
 
 .product-img{
     height: 16rem;
@@ -185,11 +196,17 @@ section {
     color: black;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: start;
+    margin: 5px;
 }
 
 #cati-container2{
     background-color: linear-gradient(to right, #4A494A, #706F6F);
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: 5px;
 }
 
 #categories h2 {
@@ -198,6 +215,11 @@ section {
     font-family: fangsong;
 }
 
+.title-heading {
+
+    background-color: #a69e9e;
+    margin: 10px;
+}
 
 .category h3 {
     margin: 4px;
@@ -218,7 +240,6 @@ section {
     height: 70%;
     width: 100%;
     background-size: cover;
-    border-top-right-radius: 86px;
     border: 1px solid;
 } 
 
@@ -252,8 +273,6 @@ section {
 .product-img4{
     background-image: url(img/naqab.jpg);
 }
-
-
 
 #product-page{
     margin: 7rem 0rem;
@@ -290,25 +309,25 @@ hr{
         height: 0rem;
     }
     #header h1{
-        margin: 20px 7px -9px 7px;
+        margin: 20px 0px 9px 0px;
         font-size: 3rem;
     }
     #header p{
         font-size: 18px;
     }
     nav {
-        font-size: 0.5rem; /* Reduce font size slightly */
-
+        font-size: 0.5rem;
+        /* padding: 00.8rem 0rem; */
     }
     nav ul {
-        font-size: 0.5;
+        font-size: 5px;
     }
     .nav-brand h1 {
         font-size: 0.2rem; /* Scale down headline font size */
         color: #aaa;
     }
     nav ul li {
-        margin: 0 0.5rem;
+        margin:3px;
     }
     nav ul li a{
         padding: 0.2rem 0.5rem;
@@ -322,6 +341,14 @@ hr{
         width: 100%;
         align-items: center;
 
+    }
+    .contain-about h3 {
+        color: black;
+        font-size: 3.5rem;
+        height: 5rem;
+        font-family: fangsong;
+        margin-bottom: 111px;
+        margin-right: 21rem;
     }
     .contain-about h3 {
         font-size: 2rem;
@@ -338,14 +365,50 @@ hr{
         height: 8rem;
         width:8rem
     }
+
+
+    /* container box */
     .category{
-        max-width: 250px;
+        max-width: 136px;
+        height: 14rem;
+        margin: 4px;
+    }
+    .category h3 {
+        margin: 0px;
+        font-size: 15px;
+        padding: 0px;
+    }
+    .category p {
+        font-size: 0.7rem;
+    }
+    .view-products{
+        font-size: 8px;
+        padding: 0.2rem 0.1rem;
     }
     .product-side-category{
-        height: 30rem;
+        height: 17rem;
+        margin: 3px;
+        max-width: 157px;
+        border-radius: 15px;
+        padding: 10px;
     }
     .product-side-category h3{
-        font-size: 1rem;
+        font-size: 0.5rem;
+    }
+    .container-link{
+        text-decoration: none;
+        margin: 0px 0px;
+    }
+    .product-heading{
+        font-size: 10px;
+        margin: 1px;
+        height: 50px;
+        overflow: scroll;
+    }
+
+    .product-price{
+        font-size: 12px;
+        margin-top: 0.2rem;
     }
     .product-side{
         border-radius: 2px;
@@ -354,10 +417,11 @@ hr{
         border-top-right-radius: 0px;
     }
     #categories h2 {
-        margin: 5rem 0rem;
+        margin: 8rem 0rem 0rem 0rem;
         font-size: 2rem;
         font-family: fangsong;
     }
+    
 }
 
 @media (max-width: 300px) {
