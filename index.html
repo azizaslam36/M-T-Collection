@@ -6,28 +6,40 @@
     <title>M&T Collection - Home</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="img/fevicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFG6M3Y4P2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KFG6M3Y4P2');
+</script>
 </head>
 <body>
-    <div id="header-head">
-        <nav>
-            <ul>
+    <section id="header">
+            <a href="index.html"><img src="img/nav-logo.png" alt="The Mount Man Logo" class="logo"></a>
+            <ul id="navbar">
                 <!-- navigation links -->
-                <li><a href="#about">About</a></li>
+                <li><a class="active" href="#about">About</a></li>
                 <li><a href="#categories">Categories</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <!-- Website name and tagline -->
-            <div class="navbrand">
-                <h1>M&T collection</h1>
-                <p>Gifting Happiness,<br>Any Accessory!</p>
-             </div>
-        </nav>
-    </div>
-    <header>
-        <div id="header">
-            <h1>M&T Collection</h1>
-            <p>"Gifting Happiness,<br>Any Accessory!"</p>
-        </div></header><hr>
+        
+        <div id="mobile">
+            <a href="cart.html" class="cart-icon"><i  class="fas fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="main-header">
+            <div id="hero">
+                <h1>M&T Collection</h1>
+                <p>"Gifting Happiness,<br>Any Accessory!"</p>
+            </div>
+    </section>
         <section id="categories">
             <h2>Our Categories</h2>
         <h3 class="title-heading">Clothings</h3>
